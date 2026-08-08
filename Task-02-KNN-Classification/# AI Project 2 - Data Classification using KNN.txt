@@ -1,0 +1,42 @@
+# AI Project 2 - Data Classification Using KNN
+
+## Project Description
+
+This project implements a Machine Learning Classification Model using the Iris Dataset.
+
+The project uses the K-Nearest Neighbors (KNN) algorithm to classify Iris flowers into three categories:
+
+- Setosa
+- Versicolor
+- Virginica
+
+## Technologies Used
+
+- Python
+- Google Colab
+- Scikit-Learn
+- Pandas
+- Matplotlib
+
+## Project Steps
+
+1. Load Iris Dataset
+2. Explore Dataset
+3. Convert to DataFrame
+4. Statistical Analysis
+5. Train-Test Split
+6. Feature Scaling
+7. Build KNN Model
+8. Train Model
+9. Predict Test Data
+10. Evaluate using Accuracy, Confusion Matrix and F1 Score
+11. Predict New Flower
+12. Data Visualization
+
+## Algorithm Used
+
+K-Nearest Neighbors (KNN)
+
+## Author
+
+Sarmad Shahzad
