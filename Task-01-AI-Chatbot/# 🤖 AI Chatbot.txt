@@ -1,0 +1,159 @@
+# 🤖 AI Chatbot
+
+## 📌 Project Overview
+
+This project is a simple Rule-Based AI Chatbot developed using **Python**. The chatbot responds to predefined user questions and greetings using a Python dictionary. It is designed to simulate a basic conversation and demonstrate the fundamental concepts of Artificial Intelligence.
+
+This project was developed as **Project 2** of the **DecodeLabs Artificial Intelligence Industrial Training Program**.
+
+---
+
+## 🎯 Objectives
+
+- Build a simple AI chatbot.
+- Learn Rule-Based Artificial Intelligence.
+- Understand dictionaries in Python.
+- Practice loops and conditional statements.
+- Handle user input efficiently.
+
+---
+
+## 🚀 Features
+
+- Responds to greetings.
+- Answers basic questions.
+- Uses a Python dictionary for responses.
+- Converts user input to lowercase.
+- Removes unnecessary spaces.
+- Runs continuously until the user types **bye**.
+- Displays a default message for unknown questions.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Google Colab
+- VS Code
+
+---
+
+## 📚 AI Concepts Used
+
+- Rule-Based AI
+- Dictionary-Based Knowledge Base
+- User Input Handling
+- Conditional Statements
+- While Loop
+- String Processing
+
+---
+
+## 📂 Project Structure
+
+The project contains a single Python file:
+
+- chatbot.py
+
+---
+
+## ▶️ How to Run
+
+1. Open Google Colab or VS Code.
+2. Copy the chatbot code into a Python file.
+3. Run the program.
+4. Start chatting with the bot.
+
+Example:
+
+```
+hello
+```
+
+or
+
+```
+how are you
+```
+
+The chatbot will reply according to the predefined responses.
+
+---
+
+## 💬 Sample Conversation
+
+```
+You: hello
+
+Bot: Hello! Nice to meet you. How can I help you today?
+
+You: how are you
+
+Bot: I'm doing great! Thanks for asking. How about you?
+
+You: name
+
+Bot: My name is DecodeBot. I'm a simple AI chatbot created using Python.
+
+You: thanks
+
+Bot: You're most welcome! Feel free to ask anything else.
+
+You: bye
+
+Bot: Goodbye!
+```
+
+---
+
+## ⚙️ How It Works
+
+1. The chatbot waits for user input.
+2. The input is converted into lowercase using `lower()`.
+3. Extra spaces are removed using `strip()`.
+4. The chatbot searches the input inside the response dictionary.
+5. If a matching response exists, it displays the corresponding reply.
+6. Otherwise, it prints:
+
+```
+I don't understand.
+```
+
+7. The program continues until the user enters:
+
+```
+bye
+```
+
+---
+
+## 📈 Future Improvements
+
+- Add more conversation responses.
+- Support spelling correction.
+- Add Natural Language Processing (NLP).
+- Integrate Machine Learning.
+- Add voice input and voice output.
+- Build a GUI using Tkinter.
+- Create a web version using Streamlit.
+- Connect with OpenAI API.
+
+---
+
+## 👨‍💻 Author
+
+**Sunny**
+
+Artificial Intelligence Internship
+
+DecodeLabs Industrial Training Program
+
+Project 2
+
+---
+
+## ⭐ Thank You
+
+Thank you for checking out this project!
+
+If you like this project, don't forget to ⭐ star the repository.
