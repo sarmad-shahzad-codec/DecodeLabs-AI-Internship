@@ -1,0 +1,172 @@
+# 🤖 AI-Based Image Text Recognition System Using OCR
+
+## 📖 Project Description
+
+This project is developed as part of the Artificial Intelligence course. The main purpose of this project is to extract text from images using Optical Character Recognition (OCR). The system allows users to upload one or multiple images, processes them using OpenCV, and extracts text with the help of the Tesseract OCR engine.
+
+The project also provides useful statistics such as word count, character count, line count, confidence score, and processing time. Finally, all extracted text is saved into a text file for future use.
+
+---
+
+## 🎯 Project Objectives
+
+- Extract text from images using OCR.
+- Preprocess images to improve text recognition.
+- Display extracted text in a readable format.
+- Calculate useful text statistics.
+- Save extracted text into a text file.
+- Support multiple image uploads.
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Google Colab
+- OpenCV
+- Tesseract OCR
+- Matplotlib
+- Pillow
+
+---
+
+## 📂 Project Features
+
+- Upload single or multiple images.
+- Display the original image.
+- Convert image into grayscale.
+- Remove image noise using Gaussian Blur.
+- Apply thresholding for better OCR accuracy.
+- Extract text from images.
+- Display extracted text.
+- Count words, characters, and lines.
+- Calculate OCR confidence score.
+- Measure processing time.
+- Save extracted text into a TXT file.
+- Automatically download the result file.
+
+---
+
+## 📁 Project Workflow
+
+```
+Start
+   │
+   ▼
+Upload Image
+   │
+   ▼
+Read Image
+   │
+   ▼
+Image Preprocessing
+   │
+   ▼
+OCR Text Extraction
+   │
+   ▼
+Display Statistics
+   │
+   ▼
+Save Results
+   │
+   ▼
+End
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### Step 1
+
+Open the project in **Google Colab**.
+
+### Step 2
+
+Install all required libraries.
+
+```python
+!sudo apt-get install tesseract-ocr -y
+!pip install pytesseract
+!pip install opencv-python
+!pip install matplotlib
+!pip install pillow
+```
+
+### Step 3
+
+Run all notebook cells.
+
+### Step 4
+
+Upload one or more images containing text.
+
+### Step 5
+
+The system will:
+
+- Display the uploaded image.
+- Preprocess the image.
+- Extract text.
+- Show statistics.
+- Save the extracted text.
+
+---
+
+## 📊 Output
+
+The project generates:
+
+- Original Image
+- Processed Image
+- Extracted Text
+- Word Count
+- Character Count
+- Line Count
+- Confidence Score
+- Processing Time
+- Extracted Text File
+
+---
+
+## 📂 Project Files
+
+```
+AI-Based-Image-Text-Recognition-System/
+
+│── AI_Project_4_OCR.ipynb
+│── README.md
+│── requirements.txt
+│── extracted_text_results.txt
+│── sample_images/
+```
+
+---
+
+## 📌 Future Improvements
+
+The project can be further improved by adding:
+
+- Handwritten text recognition.
+- PDF text extraction.
+- Language translation.
+- Text-to-Speech conversion.
+- Deep Learning OCR models.
+- User-friendly graphical interface.
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates how Artificial Intelligence can be used for image text recognition. By combining OpenCV and Tesseract OCR, the system accurately extracts text from images and provides useful statistics. The project is simple, efficient, and can be further enhanced with advanced AI features.
+
+---
+
+## 👨‍💻 Developed By
+
+**Your Name**
+
+Artificial Intelligence Project 4
+
+Python | Google Colab | OCR
