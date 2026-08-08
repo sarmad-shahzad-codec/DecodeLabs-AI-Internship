@@ -1,0 +1,147 @@
+# 🤖 AI Recommendation System
+
+## 📌 Project Overview
+
+This project is a simple AI-based Recommendation System developed using **Python**, **TF-IDF Vectorization**, and **Cosine Similarity**.
+
+The system recommends the most relevant courses based on the user's interests. It compares the user's input with the course dataset and ranks the recommendations according to similarity scores.
+
+This project was developed as **Project 3** of the **DecodeLabs Artificial Intelligence Industrial Training Program**.
+
+---
+
+## 🎯 Objectives
+
+- Build a simple AI Recommendation System.
+- Learn Content-Based Filtering.
+- Understand TF-IDF Vectorization.
+- Apply Cosine Similarity for recommendations.
+- Rank courses based on similarity scores.
+
+---
+
+## 🚀 Features
+
+- User enters their interests.
+- Uses TF-IDF to convert text into numerical vectors.
+- Uses Cosine Similarity to compare user interests with available courses.
+- Displays the Top 3 recommended courses.
+- Shows similarity score and match percentage.
+- Displays the best recommendation.
+- Allows the user to get recommendations multiple times.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Google Colab
+- Scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
+
+---
+
+## 📚 AI Concepts Used
+
+- Content-Based Recommendation System
+- TF-IDF (Term Frequency – Inverse Document Frequency)
+- Cosine Similarity
+- Text Vectorization
+- Natural Language Processing (Basic)
+
+---
+
+## 📂 Dataset
+
+The project contains a small dataset of courses including:
+
+- Python for Beginners
+- Machine Learning
+- Artificial Intelligence
+- Data Science
+- Web Development
+- Graphic Design
+- Flutter App Development
+- Cyber Security
+
+Each course contains keywords used for recommendation.
+
+---
+
+## ▶️ How to Run
+
+1. Open Google Colab or Jupyter Notebook.
+2. Copy and paste the project code.
+3. Run all cells.
+4. Enter your interests.
+
+Example:
+
+```
+python ai machine learning
+```
+
+The system will display:
+
+- Top AI Recommendations
+- Similarity Score
+- Match Percentage
+- Best Recommendation
+
+---
+
+## 📊 Sample Output
+
+```
+Top AI Recommendations
+
+1. Machine Learning
+   Similarity Score : 0.80
+   Match Percentage : 80.2%
+
+2. Artificial Intelligence
+   Similarity Score : 0.56
+   Match Percentage : 56.5%
+
+3. Data Science
+   Similarity Score : 0.45
+   Match Percentage : 45.6%
+
+Best Recommendation
+
+Machine Learning
+```
+
+---
+
+## 📈 Future Improvements
+
+- Larger course dataset
+- Movie recommendation system
+- Book recommendation system
+- CSV dataset support
+- Streamlit web interface
+- User login system
+- Recommendation history
+- Machine Learning model integration
+
+---
+
+## 👨‍💻 Author
+
+**Sunny**
+
+Artificial Intelligence Internship Project
+
+DecodeLabs Industrial Training Program
+
+Project 3
+
+---
+
+## ⭐ Thank You
+
+Thank you for checking out this project!
+
+If you like this project, don't forget to ⭐ star the repository.
